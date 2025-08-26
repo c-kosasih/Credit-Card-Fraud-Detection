@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 
-DATABASE_URL = "mysql+pymysql://root:@localhost:3306/fraud_db"
+DATABASE_URL = ""
 
 # Connection timeout and pool settings
 engine = create_engine(
@@ -73,5 +73,6 @@ class Prediction(Base):
     prediction = Column(SmallInteger)
     created_at = Column(TIMESTAMP, server_default=func.now())
     
+
 
 
