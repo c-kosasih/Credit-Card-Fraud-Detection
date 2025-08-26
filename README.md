@@ -32,9 +32,9 @@ Step-by-step flow:
 
 # Streamlit Dashboard
 <p align="center">
-  <img src="screenshots\fraud_dashboard_safe.png" alt="Safe Transaction" width="45%"/>
+  <img src="dashboard visual\fraud_dashboard_safe.png" alt="Safe Transaction" width="45%"/>
   &nbsp; &nbsp;
-  <img src="screenshots\fraud_dashboard_fraud.png" alt="Fraud Transaction" width="45%"/>
+  <img src="dashboard visual\fraud_dashboard_fraud.png" alt="Fraud Transaction" width="45%"/>
 </p>
 
 
